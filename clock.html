@@ -39,7 +39,7 @@ if (urlParams["bodyStyle"]) document.body.setAttribute("style", urlParams["bodyS
 // c();
     function update() {
       output.innerText = moment().format(urlParams["format"] || '');
-      setTimeout(update, 100);
+      setTimeout(update, 10);
     }
     update();
 
